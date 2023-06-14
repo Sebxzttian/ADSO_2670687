@@ -126,6 +126,67 @@
                   <input type="text" name="Nombre" id="Nombre" placeholder="Escriba su nombre" required=""><br><br>
                   <label for="EMAIL">Email</label>
                   <input type="text" name="EMAIL" id="EMAIL" placeholder="Escriba su email" required=""><br><br>
+                  <label for="pass">Password (8 characters minimum):</label>
+                  <input type="password" id="pass" name="password" minlength="8" required><br><br>
+                  <label for="start">Start date:</label>
+                  <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31"><br><br>
+                  <label for="tentacles">Edad (10-100):</label>
+                  <input type="number" id="tentacles" name="tentacles" min="10" max="100"><br><br>
+                  <input type="range" id="volume" name="volume" min="0" max="11">
+                  <label for="volume">Volume</label><br><br>
+                  <label for="phone">Enter your phone number:</label>
+                  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                  
+                    <legend>Choose your monster's features:</legend>
+                
+                    <div>
+                      <input type="checkbox" id="scales" name="scales" checked>
+                      <label for="scales">Scales</label>
+                    </div>
+                
+                    <div>
+                      <input type="checkbox" id="horns" name="horns">
+                      <label for="horns">Horns</label>
+                    </div><br><br>
+
+                    <legend>Select a maintenance drone:</legend>
+
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey"
+             checked>
+      <label for="huey">Huey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey">
+      <label for="dewey">Dewey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie">
+      <label for="louie">Louie</label>
+    </div><br><br>
+
+    <select name="select">
+      <option value="value2" selected></option>
+      <option value="value1">Value 1</option>
+      <option value="value2">Value 2</option>
+      <option value="value3">Value 3</option>
+      <option value="value3">Value 4</option>
+      <option value="value3">Value 5</option>
+      <option value="value3">Value 6</option>
+    </select><br><br>
+
+    <label for="avatar">Choose a profile picture:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg"><br><br>
+                
+
+                  
+                  
+                  
                   <input type="submit" id="Enviar" name="Enviar" value="Enviar" required=""><br><br>
                   <button value="Registrarse">Registrarse</button>
                 </form>
