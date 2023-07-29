@@ -98,4 +98,30 @@ let rest = parseInt(presupuesto*trau);
 let resp = parseInt(presupuesto*pedi);
 alert("el presupuesto del hopital queda dividido de la siguiente manera: $" +resg+ " en el area de ginecología,$" +rest+ " en el area de traumatología y $" +resp+ " en el area de pediatría.");*/
 
+/* Ejercicio 8 - El dueño de una tienda compra un artículo a un precio determinado. Obtener el
+precio en que lo debe vender para obtener una ganancia del 30%. REPETIDOOOO*/
+
+/* Ejercicio 9 - Tres personas deciden invertir su dinero para fundar una empresa. Cada una de
+ellas invierte una cantidad distinta. Obtener el porcentaje que cada quien invierte
+con respecto a la cantidad total invertida.*/
+
+let name1 =prompt ("ingrese el nombre del inversor");
+let inv1 =prompt ("Cantidad de inversion");
+let name2 =prompt ("ingrese el nombre del inversor");
+let inv2 =prompt ("Cantidad de inversion");
+let name3 =prompt ("ingrese el nombre del inversor");
+let inv3 =prompt ("Cantidad de inversion");
+let porc =parseInt(inv1)+parseInt(inv2)+parseInt(inv3);   
+let proc1 =parseInt(inv1/porc)*100; 
+let proc2 =parseInt(inv2/porc)*100;
+let proc3 =parseInt(inv3/porc)*100;      
+
+alert("En el proceso de fundar la empres, "+name1+" invirtio $"+inv1+" lo cual le dio el "+proc1+"% de la empresa,"
++name2+" invirtio $"+inv2+" lo cual le dio el "+proc2+"% de la empresa y "+name3+" invirtio $"+inv3+" lo cual le dio el "+proc3+"% de la empresa." )
+
+
+
+
+/* Ejercicio 10 - Realizar una calculadora con las operaciones básicas suma, división,
+multiplicación y división.*/
 
